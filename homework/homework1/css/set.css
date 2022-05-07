@@ -1,0 +1,92 @@
+.headfont{
+    /* display: inline; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    /* width: max-content; */
+    color: #292c2e;
+    font-family: "方正粗圆简体";
+    /* flex: 1; */
+    margin-right: 22px;;
+    font-size: 14px;
+}
+
+.headset{
+    /* text-align: center; */
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    /* flex-direction: row; */
+    width: 1066px;
+    margin-left: 60px;
+    /* margin-right: 10px; */
+}
+.sheet{
+    display: flex;
+    
+}
+.line{
+    width: max-content;
+    
+}
+/* .bk{
+    background: url(../e01-2.jpg);
+    width: 1066px;
+    height: 546px;
+    opacity: 0.4;
+} */
+#lb{
+    margin-left: 33px;
+    margin-top: 20px;
+}
+.biaoti{
+    font-size: 14px;
+    /* font-family: "方正粗圆简体"; */
+    line-height: 14px;
+    /* font-weight: bold; */
+    color: #666;
+}
+.border{
+    margin-bottom: 70px;
+}
+h3{
+    line-height: 20px;
+    font-size: 20px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+h4{
+    line-height: 14px;
+    font-size: 14px;
+    margin-block-start: 22px;
+    margin-block-end: 0px;
+}
+.rightborder{
+    margin-left: 284px;
+    /* width: 300px; */
+}
+h1{
+    line-height: 20px;
+    font-size: 20px;
+    margin-block-start: 30px;
+    margin-block-end: 20px;
+}
+h2{
+    line-height: 20px;
+    font-size: 16px;
+    margin-block-start: 17px;
+    margin-block-end: 10px;
+}
+.b{
+    display: flex;
+    margin-top: 30px;
+}
+.num{
+    font-size: 28px;
+    color: #AAA;
+    /* font-weight: bold; */
+    margin: 10px 10px 30px 0px;
+}
+.twoname{
+    margin-block-start: 10px;
+    margin-block-end: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework2</title>
+</head>
+<body>
+    <div class="m-box">
+        <h1>date</h1>
+        <ul id="ul1">
+          <li class="m-item" id="p1" onclick="myFunction1()">p1</li>
+          <li class="m-item" id="p2" onclick="myFunction2()">p2</li>
+          <li class="m-item" id="p3" onclick="myFunction3()">p3</li>
+          <li class="m-item" id="p4" onclick="myFunction4()">p4</li>
+          <li class="m-item" id="p5" onclick="myFunction5()">p5</li>
+          <li class="m-item" id="p6" onclick="myFunction6()">p6</li>
+          <li class="m-item" id="p7" onclick="myFunction7()">p7</li>
+          <li class="m-item" id="p8">p8</li>
+        </ul>
+    </div>
+  
+    <script src="js/index.js"></script>
+    <script>
+        var list = document.getElementsByTagName("li");
+        for(var i = 0;i < list.length;i++){
+            list[i].addEventListener("click",control.bind(i,i));
+        }
+    </script>
+</body>
+</html>
